@@ -25,7 +25,7 @@ While the program is not functional without these other classes, I
 included it on my GitHub as an example of the type of code that can be
 expected of me to write.
 
-##Project spec details:
+## Project spec details:
 After validating all command line arguments, my program instantiates either a
 BSTMap, AVLTreeMap, or MyHashMap. The key-value pairs are String-to-Integer,
 where String is the word and Integer is the number of times the word is
