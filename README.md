@@ -2,9 +2,8 @@
 ## Introduction:
 Common_Word_Finder is a command line Java application to find the 𝑛 most common
 words in a document. Written from scratch by me as a final project for my data
-structures class, it uses three of the data structures we developed for
-previous programming assignments to create a program that finds the 𝑛 most
-common words in a document. BSTMap, AVLTreeMap, and MyHashMap implement the
+structures class, it implements three of the data structures we developed for
+previous programming assignments. BSTMap, AVLTreeMap, and MyHashMap implement the
 MyMap interface (respectively, these class names refer to Binary Search Tree,
 AVL Tree, and Hash Map data structures). Using polymorphism, I create any one
 of these data structures and refer to it from a MyMap reference. Though all
@@ -48,17 +47,17 @@ between the longest word and the count.
 The results of taking the average of 10 running time commands on a .txt file of
 the Bible for each terminal command below are as follows:
 
-time java CommonWordFinder Bible.txt bst 20000
+time java CommonWordFinder Bible.txt bst 20000 ->
 real	0m0.393s
 user	0m0.372s
 sys	    0m0.053s
 
-time java CommonWordFinder Bible.txt avl 20000
+time java CommonWordFinder Bible.txt avl 20000 ->
 real	0m0.346s
 user	0m0.421s
 sys	    0m0.042s
 
-time java CommonWordFinder Bible.txt hash 20000
+time java CommonWordFinder Bible.txt hash 20000 ->
 real	0m0.231s
 user	0m0.354s
 sys	    0m0.042s
