@@ -1,5 +1,5 @@
 # Common_Word_Finder
-##Introduction:
+## Introduction:
 Common_Word_Finder is a command line Java application to find the 𝑛 most common
 words in a document. Written from scratch by me as a final project for my data
 structures class, it uses three of the data structures we developed for
@@ -11,7 +11,7 @@ of these data structures and refer to it from a MyMap reference. Though all
 three classes implement the same interface, their methods are implemented very
 differently, leading to different execution times on the computer.
 
-##Project upload details:
+## Project upload details:
 I only included the Common_Word_Finder class in this repository because of the
 many classes used by this program, this is the only one that was written
 entirely from scratch by me. In past programming assignments for the class
@@ -44,7 +44,7 @@ lowercase words have the same count, the words are alphabetized in the output.
 Finally, the count of the words appears at the end of each line, with one space
 between the longest word and the count.
 
-##Time analysis:
+## Time analysis:
 The results of taking the average of 10 running time commands on a .txt file of
 the Bible for each terminal command below are as follows:
 
