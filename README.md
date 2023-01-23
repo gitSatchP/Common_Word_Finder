@@ -47,20 +47,20 @@ between the longest word and the count.
 The results of taking the average of 10 running time commands on a .txt file of
 the Bible for each terminal command below are as follows:
 
-time java CommonWordFinder Bible.txt bst 20000 ->
-real	0m0.393s
-user	0m0.372s
-sys	    0m0.053s
+**time java CommonWordFinder Bible.txt bst 20000**
+  
+real 0m0.393s | user 0m0.372s | sys 0m0.053s
+  
 
-time java CommonWordFinder Bible.txt avl 20000 ->
-real	0m0.346s
-user	0m0.421s
-sys	    0m0.042s
+**time java CommonWordFinder Bible.txt avl 20000**
+  
+real 0m0.346s | user 0m0.421s | sys 0m0.042s
 
-time java CommonWordFinder Bible.txt hash 20000 ->
-real	0m0.231s
-user	0m0.354s
-sys	    0m0.042s
+  
+**time java CommonWordFinder Bible.txt hash 20000**
+  
+real 0m0.231s | user 0m0.354s | sys 0m0.042s
+  
 
 From these results, the Hash Map performed the fastest, followed by AVL, and
 then BST. Although, considering individual time tests the AVL Tree is sometimes
