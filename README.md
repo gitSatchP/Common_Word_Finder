@@ -1,4 +1,4 @@
-# Common_Word_Finder
+# Common Word Finder
 ## Introduction:
 Common_Word_Finder is a command line Java application to find the 𝑛 most common
 words in a document. Written from scratch by me as a final project for my data
