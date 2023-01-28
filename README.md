@@ -4,8 +4,8 @@ Common_Word_Finder is a command line Java application to find the 𝑛 most comm
 words in a document. Written from scratch by me as a final project for my data
 structures class, it implements three of the data structures we developed for
 previous programming assignments. BSTMap, AVLTreeMap, and MyHashMap implement the
-MyMap interface (respectively, these class names refer to Binary Search Tree,
-AVL Tree, and Hash Map data structures). Using polymorphism, I create any one
+MyMap interface. Rspectively, these class names refer to Binary Search Tree,
+AVL Tree, and Hash Map data structures. Using polymorphism, I create any one
 of these data structures and refer to it from a MyMap reference. Though all
 three classes implement the same interface, their methods are implemented very
 differently, leading to different execution times on the computer.
